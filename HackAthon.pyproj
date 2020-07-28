@@ -26,6 +26,9 @@
     <Compile Include="HistogramGeneration.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="HistoGramComparison.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.8" />
