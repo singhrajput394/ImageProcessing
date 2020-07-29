@@ -29,6 +29,21 @@
     <Compile Include="HistoGramComparison.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="FrameGenAndComp.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Clustering.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FrameGenParallel.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VideoGen.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VideoGet.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.8" />
