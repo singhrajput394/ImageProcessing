@@ -25,28 +25,28 @@ currentframe = 0
 prevFrame = 0
 prevNum = 0
 print ("frames generation...")
-#while(True): 
+while(True): 
 	
-#	# reading from frame 
-#	ret,frame = cam.read() 
+	# reading from frame 
+	ret,frame = cam.read() 
 
-#	if ret: 
-#		# if video is still left continue creating images 
-#		name = './dataCartoon/frame' + str(currentframe) + '.jpg'
-#		print ('Creating...' + name) 
-#		cv2.imwrite(name, frame) 				
+	if ret: 
+		# if video is still left continue creating images 
+		name = './dataCartoon/frame' + str(currentframe) + '.jpg'
+		print ('Creating...' + name) 
+		cv2.imwrite(name, frame) 				
 
-#		# increasing counter so that it will 
-#		# show how many frames are created 
-#		currentframe += 1
-#	else: 
-#		break
+		# increasing counter so that it will 
+		# show how many frames are created 
+		currentframe += 1
+	else: 
+		break
 
-## Release all space and windows once done 
-#cam.release() 
-#cv2.destroyAllWindows() 
+# Release all space and windows once done 
+cam.release() 
+cv2.destroyAllWindows() 
 
-totalframes = 27600#currentframe
+totalframes = currentframe
 selectCounter = 0
 keyFrames = []
 keyFrames.append(0);
